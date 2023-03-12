@@ -1,0 +1,107 @@
+.body {
+    background-color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    position: relative;
+    display: none;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 400px;
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid #ffb846;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.child1 {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-content: center;
+    vertical-align: top;
+}
+
+.child2 {
+    display: inline-block;
+}
+
+.titleAndButton {
+    text-align: center;
+    vertical-align: top;
+}
+
+.result {
+    display: none;
+    font-size: 13pt;
+}
+
+.difficulty {
+    text-align: left;
+    font-size: 13pt;
+    padding-left: 2%;
+}
+
+.hint{
+    color: #999999; 
+}
+
+.game {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+
+.game:hover {
+    background: rgb(53, 167, 110);
+}
+
+.game:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+.enterplayer {
+    display: flex;
+    width: 400px;
+}
+
+.enter {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .3em 1em calc(.3em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    transition: 0.2s;
+}
+
+.printBlock {
+    width: 1px;
+}
